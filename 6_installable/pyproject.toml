@@ -1,0 +1,11 @@
+[project]
+name = "wavey"
+version = "0.0.1"
+dependencies = [
+    "click",
+    "matplotlib",
+]
+[project.scripts]
+wavey = "wavey.__main__:main"
+wavey-generate = "wavey.__main__:generate"
+wavey-plot = "wavey.__main__:plot"
