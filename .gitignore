@@ -88,3 +88,4 @@ target/
 .mypy_cache/
 
 *.csv
+public/
