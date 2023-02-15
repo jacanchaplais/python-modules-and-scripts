@@ -34,7 +34,6 @@ jobs:
         shell: bash -l {0}
         run: make
       - name: Deploy site
-        shell: bash -l {0}
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
